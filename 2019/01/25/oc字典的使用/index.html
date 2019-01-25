@@ -86,17 +86,14 @@
 
 
 
-<meta name="description" content="[TOC] 序列序列序列包含：列表、元组、字符串、Unicode字符串、buffer对象、xrange对象  help(list)查看内置的一些函数 list()内置函数 len()返回长度 max()返回里面最大数  列表是打了激素的数组；可以混合存储内容！ mix=[99,’光哥’，9.33]   // 里面存放了各种类型变量！ 列表列表的展示方式： [3,9,12,11] list[-1]">
 <meta property="og:type" content="article">
-<meta property="og:title" content="测试一下">
-<meta property="og:url" content="http://yoursite.com/2019/01/22/hello-world/index.html">
+<meta property="og:title" content="oc字典的使用">
+<meta property="og:url" content="http://yoursite.com/2019/01/25/oc字典的使用/index.html">
 <meta property="og:site_name" content="学习 . 思索 | 飞鱼非鱼">
-<meta property="og:description" content="[TOC] 序列序列序列包含：列表、元组、字符串、Unicode字符串、buffer对象、xrange对象  help(list)查看内置的一些函数 list()内置函数 len()返回长度 max()返回里面最大数  列表是打了激素的数组；可以混合存储内容！ mix=[99,’光哥’，9.33]   // 里面存放了各种类型变量！ 列表列表的展示方式： [3,9,12,11] list[-1]">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-22T05:42:50.113Z">
+<meta property="og:updated_time" content="2019-01-25T10:10:02.293Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="测试一下">
-<meta name="twitter:description" content="[TOC] 序列序列序列包含：列表、元组、字符串、Unicode字符串、buffer对象、xrange对象  help(list)查看内置的一些函数 list()内置函数 len()返回长度 max()返回里面最大数  列表是打了激素的数组；可以混合存储内容！ mix=[99,’光哥’，9.33]   // 里面存放了各种类型变量！ 列表列表的展示方式： [3,9,12,11] list[-1]">
+<meta name="twitter:title" content="oc字典的使用">
 
 
 
@@ -126,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/01/22/hello-world/">
+  <link rel="canonical" href="http://yoursite.com/2019/01/25/oc字典的使用/">
 
 
 
 
 
-  <title>测试一下 | 学习 . 思索 | 飞鱼非鱼</title>
+  <title>oc字典的使用 | 学习 . 思索 | 飞鱼非鱼</title>
   
 
 
@@ -259,7 +256,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/22/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/01/25/oc字典的使用/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="飞鱼非鱼">
@@ -276,7 +273,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">测试一下</h1>
+          <h1 class="post-title" itemprop="name headline">oc字典的使用</h1>
         
 
         <div class="post-meta">
@@ -288,8 +285,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-22T13:42:50+08:00">
-                2019-01-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-25T18:06:31+08:00">
+                2019-01-25
               </time>
             
 
@@ -311,8 +308,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/Android/" itemprop="url" rel="index">
-                    <span itemprop="name">Android</span>
+                  <a href="/categories/oc学习/" itemprop="url" rel="index">
+                    <span itemprop="name">oc学习</span>
                   </a>
                 </span>
 
@@ -348,54 +345,7 @@
       
 
       
-        <p>[TOC]</p>
-<h2 id="序列"><a href="#序列" class="headerlink" title="序列"></a>序列</h2><p>序列序列包含：列表、元组、字符串、Unicode字符串、buffer对象、xrange对象</p>
-<ul>
-<li>help(list)查看内置的一些函数</li>
-<li>list()内置函数</li>
-<li>len()返回长度</li>
-<li>max()返回里面最大数</li>
-</ul>
-<p>列表是打了激素的数组；可以混合存储内容！</p>
-<p>mix=[99,’光哥’，9.33]   // 里面存放了各种类型变量！</p>
-<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><p>列表的展示方式：</p>
-<p>[3,9,12,11]</p>
-<p>list[-1] :取列表最后一个内容！</p>
-<h3 id="API"><a href="#API" class="headerlink" title="API"></a>API</h3><ul>
-<li>append(item)  // 添加元素，单次追加</li>
-<li>extend([1,’ok’]) // 添加多个元素</li>
-<li>insert(index,’feiyu’)  // 按位置插入元素：  index为位置 ，第二个元素</li>
-<li>del list[1]           //删除元素，指定数组的下标  也可以删除全部</li>
-<li>remove(obj) // 删除指定元素</li>
-<li>pop(index) // 删除指定元素 或者  不加 默认最后一个 ,并返回删除的元素</li>
-</ul>
-<p>++++++++++++++++++++++<br>str=韩伟光小飞鱼<br>str[1:4]<br>列表分片[1:4]  返回值是进行分片后的列表 ；（分片是创建新的空间，而赋值是还是在原来的地址）<br>切片操作符在Python中的原型是<br>[start:stop:step]<br>即：[开始索引:结束索引:步长值]<br>开始索引：同其它语言一样，从0开始。序列从左向右方向中，第一个值的索引为0,最后一个为-1<br>结束索引：切片操作符将取到该索引为止，不包含该索引的值。<br>步长值：默认是一个接着一个切取，如果为2,则表示进行隔一取一操作。步长值为正时表示从左向右取，如果为负，则表示从右向左取。步长值不能为0<br>++++++++++++++++++++++++</p>
-<p>列表比较大小：<br>字符串比较ack码 数字比较大小  ，前面的有结果后后面的就不比较了</p>
-<p>判断 列表里是否包含元素：<br>listData=[‘22’,’pp’,55]<br>‘111’ in  listData</p>
-<p>index（obj）:第一次出现的位置<br>reverse(): 进行反转列表元素<br>sort(func，key):进行指定排列 ,不写 是进行 从小到大</p>
-<hr>
-<p>直接用逗号隔开的叫做元组，可以用切片修改数据，用del 删除数据</p>
-<h2 id="字典-Map"><a href="#字典-Map" class="headerlink" title="字典 ( Map )"></a>字典 ( Map )</h2><p>{“liet”:22,”title”:”name”}</p>
-<p>Map方式，以键值对方式存储！</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dict=&#123;&#125;</span><br></pre></td></tr></table></figure>
-<p>这样就创建一个空的字典；</p>
-<p>字典的内置方法：创建新的字典</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dict.formkeys( seq[ ,value] )</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>seq:字典的键值列表</p>
-<p>value:seq的值</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dict.items()</span><br></pre></td></tr></table></figure>
-<p>返回的是一个数组，元组(键,值)数组，可以遍历这个数组输出的是 每一个元组，</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">dict=&#123;&apos;namne&apos;:&apos;飞鱼&apos;,&apos;age&apos;:21&#125;</span><br><span class="line"></span><br><span class="line">for item in dict.items():</span><br><span class="line"></span><br><span class="line">    print(item)</span><br><span class="line"></span><br><span class="line">结果是:</span><br><span class="line"></span><br><span class="line">(&apos;namne&apos;, &apos;飞鱼&apos;)</span><br><span class="line"></span><br><span class="line">(&apos;age&apos;, 21)</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">取值方式：</span><br><span class="line"></span><br><span class="line">dict.get(key,default=&apos;&apos;)</span><br></pre></td></tr></table></figure>
-<p>返回指定键的值，没有没有就返回指定的默认值！</p>
-<h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><p>{77,89,20}</p>
-<p>集合字典十分相似，但是没有键，集合中元素不能重复！</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">set=&#123;1,2,3,4,5&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">num=[1,2,3,4,5,6,1,5,3]</span><br><span class="line">setlist=set(num1)</span><br><span class="line">list(setlist)</span><br></pre></td></tr></table></figure>
-<p>这样就把列表中的数组去重了！</p>
-
+        
       
     </div>
     
@@ -419,8 +369,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/01/09/测试/" rel="next" title="测试">
-                <i class="fa fa-chevron-left"></i> 测试
+              <a href="/2019/01/25/oc数组的使用/" rel="next" title="oc数组的使用">
+                <i class="fa fa-chevron-left"></i> oc数组的使用
               </a>
             
           </div>
@@ -429,8 +379,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/01/22/demo2/" rel="prev" title="demo2">
-                demo2 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/01/25/将夜五境与编程/" rel="prev" title="将夜五境与编程">
+                将夜五境与编程 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -483,17 +433,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -544,22 +485,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#序列"><span class="nav-number">1.</span> <span class="nav-text">序列</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#列表"><span class="nav-number">1.1.</span> <span class="nav-text">列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#API"><span class="nav-number">1.2.</span> <span class="nav-text">API</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字典-Map"><span class="nav-number">2.</span> <span class="nav-text">字典 ( Map )</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#集合"><span class="nav-number">3.</span> <span class="nav-text">集合</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
